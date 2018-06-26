@@ -396,6 +396,6 @@ class __TwigTemplate_fdce294d47e86edb8d3c7b04699685581507f436214946eb8ec294b6176
 {% block body %}
     {% include '@Twig/Exception/exception.html.twig' %}
 {% endblock %}
-", "@Twig/Exception/exception_full.html.twig", "/var/www/html/User/vendor/symfony/twig-bundle/Resources/views/Exception/exception_full.html.twig");
+", "@Twig/Exception/exception_full.html.twig", "/var/www/html/skdfjkjdkfjdkdj/vendor/symfony/twig-bundle/Resources/views/Exception/exception_full.html.twig");
     }
 }
