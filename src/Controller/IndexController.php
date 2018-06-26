@@ -23,12 +23,13 @@ class IndexController extends Controller
     {
         return $this->render('Admin/index.html.twig');
     }
-      /**
-     * @Route("/user", name="user")
+    
+     /**
+     * @Route("/catalogue", name="catalogue")
      */
-    public function user()
+    public function catalogue()
     {
-        return $this->render('User/index.html.twig');
+        return $this->render('Catalogue/index.html.twig');
     }
 
 }

@@ -22,7 +22,7 @@ class srcDevDebugProjectContainerUrlGenerator extends Symfony\Component\Routing\
             self::$declaredRoutes = array(
         'index' => array(array(), array('_controller' => 'App\\Controller\\IndexController::index'), array(), array(array('text', '/')), array(), array()),
         'admin' => array(array(), array('_controller' => 'App\\Controller\\IndexController::admin'), array(), array(array('text', '/admin')), array(), array()),
-        'user' => array(array(), array('_controller' => 'App\\Controller\\IndexController::user'), array(), array(array('text', '/user')), array(), array()),
+        'catalogue' => array(array(), array('_controller' => 'App\\Controller\\IndexController::catalogue'), array(), array(array('text', '/catalogue')), array(), array()),
         'user_registration' => array(array(), array('_controller' => 'App\\Controller\\RegistrationController::registerAction'), array(), array(array('text', '/register')), array(), array()),
         'security_login' => array(array(), array('_controller' => 'App\\Controller\\SecurityController::login'), array(), array(array('text', '/login')), array(), array()),
         'security_logout' => array(array(), array('_controller' => 'App\\Controller\\SecurityController::logout'), array(), array(array('text', '/logout')), array(), array()),
